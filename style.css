@@ -1,0 +1,143 @@
+body{
+background-color:#E4E2DD;
+}
+.note{
+margin-top:150px;
+margin-right:0px;
+font-size:20px;
+ //font-family: Sharp Sans Bold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+
+}
+.pizaa{
+height:500px;
+ width:900px;
+ border:none;
+ border-radius:15px;
+ margin-top :70px;
+}
+header{
+    display: block;
+    unicode-bidi: isolate;
+}
+nav{
+    position: fixed;
+    top: 0px;
+    height: 150px;
+    background-color:white;
+    width: 100%;
+    z-index: 1000;
+
+    border-color: #fff;
+    margin-left: 0px;
+}
+.nav_item{
+text-decoration : none;
+}
+a{
+font-family: ;
+text-decoration : none;
+color:black;
+//font-style :bold;
+margin-right :0px;
+margin-left :50px;
+font-size :20px;
+}
+.hed{
+ font-family: Sharp Sans Bold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+ margin-top :220px;
+ text-align :center;
+ font-size :60px;
+
+}
+.rs{
+cursor:pointer;
+}
+.pic{
+width:300px;
+border:none;
+border-radius:20px;
+margin-right :100px;
+}
+.container{
+margin-top:100px;
+display:flex;
+margin-left:50px;
+
+}
+
+.pic{
+cursor :pointer;
+transition : transform 0.12s;
+}
+.pic:hover{
+transform: scale(1.2);
+}
+.para{
+font-size:22px;
+margin-left:15px;
+}
+.para2{
+margin-left:50px;
+margin-top:80px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    color: #84DCC6;
+    text-align: center;
+    padding: 8px;
+    margin-top: 800px;
+    clear: both;
+    position: center;
+    height:50vh;
+}
+.social-icons {
+    width :100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: white;
+    margin-top:0px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px; /* Set the width of the circle */
+    height: 60px; /* Set the height of the circle */
+    margin:  10px;
+    border-radius: 50%; /* Make the container circular */
+    background-color: #333; /* Background color of the circle */
+    color: white; /* Icon color */
+    font-size: 1.5rem; /* Icon size */
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+}
+
+.icon i {
+    line-height: 60px; /* Center the icon vertically */
+}
+
+.icon:hover {
+    background-color: #1877F2; /* Facebook blue color */
+    transform: scale(1.2); /* Slightly enlarge the circle */
+}
+
+.icon.instagram:hover {
+    background-color: #C13584; /* Instagram pink color */
+}
+
+.icon.github:hover {
+    background-color: #333; /* GitHub dark color */
+}
+
+.icon.whatsapp:hover {
+    background-color: #25D366; /* WhatsApp green color */
+}
+
+.icon.twitter:hover {
+    background-color: #1DA1F2; /* Twitter blue color */
+}
